@@ -11,7 +11,7 @@ from binascii import unhexlify
 from hashlib import sha256
 
 from flask import Flask, redirect, url_for, abort, request, jsonify
-from brave.api.client import API
+from braveapi.client import API
 from ecdsa.keys import SigningKey, VerifyingKey
 from ecdsa.curves import NIST256p
 
